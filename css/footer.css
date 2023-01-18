@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    margin-top: -100px;
+    background: #000;
+  }
+  
+  .footer-container .site-title {
+    padding-bottom: 40px;
+    padding-top: 60px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .footer-container .wrapper {
+    padding-bottom: 80px;
+  }
+  
+  .footer-container .site-line {
+    border: 1px solid black;
+  }

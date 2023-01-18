@@ -1,0 +1,498 @@
+.top-header {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.top-header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: #0f0f0f;
+  height: 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-menus,
+.nav,
+.nav-item,
+.nav-link {
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo a {
+  color: white;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item button img {
+  border: 0 solid #1f1f1f;
+  background: #1f1f1f;
+}
+
+.nav-item button {
+  margin-left: 45px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+}
+
+.nav-link:hover {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger img {
+  width: 50px;
+}
+
+/*home */
+
+#home {
+  background: url("../images/Porten.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-container {
+  padding-top: 160px;
+  padding-bottom: 154px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-logo h1 {
+  border-bottom: 2px solid #ffffff;
+  font-family: "Post No Bills Jaffna";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+  width: 320px;
+  height: 320px;
+  border: 4px solid #ffffff;
+  color: #ffffff;
+}
+
+.home-logo p {
+  margin-top: 7px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.home-content p {
+  max-width: 730px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* new-collection */
+
+.new-coll-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-coll-left,
+.new-coll-right {
+  width: 50%;
+}
+
+.new-coll-left {
+  padding: 93px 74px 72px;
+  background-color: #000;
+}
+
+.watch-card-body img {
+  width: 100%;
+}
+
+.divider {
+  width: 130px;
+  height: 1px;
+  background-color: white;
+}
+
+.new-coll-right button {
+  border: 1px solid #ffffff;
+  padding: 12px 28px;
+  background-color: transparent;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.watch-card-body {
+  padding: 55px 21px;
+  text-align: center;
+  background: #191b1c;
+}
+
+.watch-card-content h3 {
+  margin: 25px 0 10px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.watch-card-content p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
+.new-coll-left-row {
+  display: flex;
+  gap: 46px;
+}
+
+.new-coll-left-row .watch-card {
+  flex: 1;
+}
+
+.new-coll-left-content {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new-coll-left-content h1 {
+  margin-bottom: 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.new-coll-right {
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url("../images/collection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.new-coll-right h2 {
+  margin-top: 300px;
+  margin-bottom: 30px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*new coll end*/
+
+.collect {
+  display: flex;
+}
+
+.image-block {
+  background-image: url("../images/style-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 600px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #000000;
+  width: 50%;
+  height: 600px;
+  text-align: center;
+}
+
+.site-title {
+  margin-top: 100px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.site-line {
+  border: 1px solid black;
+  width: 120px;
+  margin-top: 40px;
+}
+
+.site-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.content button {
+  margin: 61px;
+  width: 311px;
+  height: 47px;
+  border: 1px solid white;
+  background: transparent;
+}
+
+.site-btn {
+  padding: 12px 0;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*products */
+.products {
+  margin-top: 1px;
+  background-color: #000;
+  padding: 60px 0 150px;
+}
+
+.products .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 0;
+}
+
+.products .site-title {
+  padding-bottom: 60px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.products .title {
+  padding-top: 25px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.products .price {
+  padding-top: 10px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
+.wrapper .card-image {
+  background: #0f0f0f;
+  padding: 60px 80px;
+  width: 255px;
+  display: flex;
+  justify-content: center;
+}
+
+/*products */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid white;
+  margin-top: -100px;
+  background: #000;
+}
+
+.footer-container .site-title {
+  padding-bottom: 40px;
+  padding-top: 60px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-container .wrapper {
+  padding-bottom: 80px;
+}
+
+.footer-container .site-line {
+  border: 1px solid black;
+}
+
+/*media*/
+
+@media (max-width: 1200px) {
+  .new-coll-left,
+  .new-coll-right {
+    width: 100%;
+  }
+
+  .new-coll-left {
+    gap: 30px;
+    padding: 40px 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-menus {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .new-coll-left-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-block,
+  .content {
+    width: 100%;
+  }
+  .collect {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 820px) {
+  .wrapper {
+    align-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 15px;
+  }
+
+  .pro .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer-container .site-title {
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
